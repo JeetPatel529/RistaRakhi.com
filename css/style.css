@@ -22,3 +22,7 @@
   [Home_Banner] .swiper-pagination .swiper-pagination-bullet {
     background-color: #AA0B28;
   }
+
+  .lb-number {
+    display: none !important;
+  }
