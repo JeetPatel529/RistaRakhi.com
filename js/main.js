@@ -37,9 +37,29 @@ var swiper = new Swiper("[Popular_Rakhi]", {
 
 var swiper = new Swiper("[Home_Banner]", {
     slidesPerView: 1,
+    loop: true,
     effect: 'fade',
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
+    autoplay: {
+        delay: 5000,
+    },
+});
+
+
+$("#FormSubmitBtn").click(function () {
+    $("#overlay").toggleClass("hidden");
+    $("#Modal").toggleClass("hidden");
+});
+
+$("#ModalCloseBtn").click(function () {
+    $("#overlay").toggleClass("hidden");
+    $("#Modal").toggleClass("hidden");
+})
+
+$("#overlay").click(function () {
+    $(this).toggleClass("hidden");
+    $("#Modal").toggleClass("hidden");
 });
