@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
   * {
     margin: 0;
@@ -8,6 +9,9 @@
     scroll-behavior: smooth;
   }
 
+  .title {
+    font-family: 'Lato', sans-serif;
+  }
 
   html,
   body {
@@ -15,11 +19,6 @@
     height: 100%;
     overflow-x: hidden;
   }
-
-  /* .select-rakhi-font {
-    font-family: 'Hind Siliguri', sans-serif;
-  } */
-
 
   [Home_Banner] .swiper-pagination {
     right: 1rem !important;
@@ -33,4 +32,8 @@
 
   .lb-number {
     display: none !important;
+  }
+
+  .d-none {
+    display: none;
   }

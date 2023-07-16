@@ -50,16 +50,16 @@ var swiper = new Swiper("[Home_Banner]", {
 
 
 $("#FormSubmitBtn").click(function () {
-    $("#overlay").toggleClass("hidden");
-    $("#Modal").toggleClass("hidden");
+    $("#overlay").toggleClass("d-none");
+    $("#Modal").toggleClass("d-none");
 });
 
 $("#ModalCloseBtn").click(function () {
-    $("#overlay").toggleClass("hidden");
-    $("#Modal").toggleClass("hidden");
+    $("#overlay").toggleClass("d-none");
+    $("#Modal").toggleClass("d-none");
 })
 
 $("#overlay").click(function () {
-    $(this).toggleClass("hidden");
-    $("#Modal").toggleClass("hidden");
+    $(this).toggleClass("d-none");
+    $("#Modal").toggleClass("d-none");
 });
