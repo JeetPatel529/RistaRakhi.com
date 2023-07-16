@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
     <script src="./js/tailwind.js"></script>
     <script src="./js/root.js"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -15,7 +16,7 @@
 
     <header>
         <div class="w-full bg-Theme_color py-2.5 text-center">
-            <h2 class="text-white tracking-wider capitalize text-lg">Rakha Bandhan Are Coming</h2>
+            <h2 class="text-white tracking-wider capitalize text-lg">Rakha Bandhan Are Coming - 10% Off</h2>
         </div>
         <nav class="py-3.5 w-full bg-[#f6f6f6]">
             <div class="flex items-center justify-center">
@@ -24,17 +25,32 @@
         </nav>
     </header>
 
+    <section class="w-full desktop:pb-16 laptop:pb-11 ipad:pb-9 sm:pb-7 pb-5 max-h-96">
+        <div class="swiper w-full h-fit" Home_Banner>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide w-full">
+                    <img src="./img/banner.jpg" class="w-full sm:h-96 h-[175px]  object-cover object-right">
+                </div>
+                <div class="swiper-slide w-full">
+                    <img src="./img/banner-2.jpg" class="w-full sm:h-96 h-[175px] object-cover">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
     <section
         class="w-full ipad:max-w-[90%] mx-auto   desktop:px-6 laptop:px-4 tablet:px-3.5 px-2  desktop:py-16 laptop:py-11 ipad:py-9 sm:py-7 py-5">
         <div class="grid ipad:grid-cols-2 grid-cols-1 items-center gap-4">
             <div class="w-full ipad:max-w-[650px]">
-                <h6 class="text-xl text-justify ipad:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vero iusto
-                    repellendus
-                    consectetur dolores
-                    atque accusamus, sequi autem facere ut id animi explicabo, vel, sapiente quisquam veritatis quaerat
-                    quis. Molestias, atque voluptas voluptatum numquam perferendis laudantium nobis! Deserunt fugiat
-                    itaque iure ut excepturi tempora soluta accusamus ipsum.</h6>
+                <h6 class="mobile:text-xl text-md text-justify ipad:text-left">Raksha Bandhan is a cherished Hindu
+                    festival celebrated
+                    in India. It symbolizes the bond between brothers and sisters, with sisters tying Rakhi threads
+                    around their brothers' wrists as a symbol of love and protection. The festival promotes unity,
+                    respect, and emotional support among siblings, fostering a sense of togetherness in society. It is a
+                    joyous occasion where brothers pledge to protect and support their sisters, and gifts are exchanged
+                    as a token of affection. Raksha Bandhan holds immense cultural and emotional significance,
+                    strengthening the bond between siblings across the country.</h6>
             </div>
             <div class="relative overflow-hidden w-full pt-[74%] order-first ipad:order-last">
                 <img src="./img/about-img.png" class=" w-full h-full inset-0 absolute object-contain">
@@ -44,8 +60,103 @@
 
     <section
         class="w-full ipad:max-w-[90%] mx-auto   desktop:px-6 laptop:px-4 tablet:px-3.5 px-2  desktop:py-16 laptop:py-11 ipad:py-9 sm:py-7 py-5">
+        <div class="flex flex-col align-items-start laptop:gap-16 tablet:gap-12 mobile:gap-9 gap-6">
+            <div class="flex w-full items-center justify-between gap-2.5">
+                <h2 class="text-Theme_color font-bold  text-4xl capitalize">Our most Popular Rakhis</h2>
+                <div class="flex  items-center justify-end gap-2.5">
+                    <div class="cursor-pointer rotate-180 leftsideslider">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                            width="38" height="38" viewBox="0 0 256 256" xml:space="preserve">
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path
+                                    d="M 45 90 C 20.187 90 0 69.813 0 45 C 0 20.187 20.187 0 45 0 c 24.813 0 45 20.187 45 45 C 90 69.813 69.813 90 45 90 z M 45 7 C 24.047 7 7 24.047 7 45 s 17.047 38 38 38 s 38 -17.047 38 -38 S 65.953 7 45 7 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" class="fill-Theme_color" />
+                                <path
+                                    d="M 36.522 65.456 c -0.896 0 -1.792 -0.342 -2.475 -1.025 c -1.367 -1.366 -1.367 -3.583 0 -4.949 L 48.528 45 L 34.047 30.519 c -1.367 -1.366 -1.367 -3.583 0 -4.95 c 1.367 -1.366 3.583 -1.365 4.95 0 l 16.955 16.956 c 1.367 1.366 1.367 3.583 0 4.949 L 38.997 64.431 C 38.313 65.114 37.417 65.456 36.522 65.456 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" class="fill-Theme_color" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="cursor-pointer rightsideslider">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                            width="38" height="38" viewBox="0 0 256 256" xml:space="preserve">
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path
+                                    d="M 45 90 C 20.187 90 0 69.813 0 45 C 0 20.187 20.187 0 45 0 c 24.813 0 45 20.187 45 45 C 90 69.813 69.813 90 45 90 z M 45 7 C 24.047 7 7 24.047 7 45 s 17.047 38 38 38 s 38 -17.047 38 -38 S 65.953 7 45 7 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" class="fill-Theme_color" />
+                                <path
+                                    d="M 36.522 65.456 c -0.896 0 -1.792 -0.342 -2.475 -1.025 c -1.367 -1.366 -1.367 -3.583 0 -4.949 L 48.528 45 L 34.047 30.519 c -1.367 -1.366 -1.367 -3.583 0 -4.95 c 1.367 -1.366 3.583 -1.365 4.95 0 l 16.955 16.956 c 1.367 1.366 1.367 3.583 0 4.949 L 38.997 64.431 C 38.313 65.114 37.417 65.456 36.522 65.456 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" class="fill-Theme_color" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper w-full h-full" Popular_Rakhi>
+                <div class="swiper-wrapper w-full">
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                            class="w-full block  relative pt-[86%] rounded-md overflow-hidden before:absolute before:inset-0 before:bg-black before:w-full before:h-full before:z-10 before:opacity-10 hover:before:bg-opacity-0 border border-Theme_color"
+                            data-lightbox="PopularRakhi">
+                            <img src="https://imgcdn.floweraura.com/metal-peacock-rakhi-9888667ra-D.jpg"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="w-full ipad:max-w-[90%] mx-auto   desktop:px-6 laptop:px-4 tablet:px-3.5 px-2  desktop:py-16 laptop:py-11 ipad:py-9 sm:py-7 py-5">
         <div class="grid ipad:grid-cols-3 grid-cols-1 sm:gap-4 gap-2.5">
-            <a href="#"
+            <a href="./our-collection.html"
                 class="rounded overflow-hidden relative w-full sm:pt-[62%] pt-[52%] after:absolute after:inset-0 after:w-full after:h-full after:bg-black after:bg-opacity-40 select-rakhi-font hover:after:bg-opacity-10  focus:outline-offset-4 focus:outline-4 focus:outline-Theme_color">
                 <img src="./img/brothers.png" class="absolute inset-0 w-full h-full object-cover">
                 <div class="absolute z-10 w-full laptop:left-4 laptop:bottom-4 left-2 bottom-2">
@@ -54,7 +165,7 @@
                 </div>
             </a>
             <div class="ipad:col-span-2 sm:gap-4 gap-2.5 grid grid-cols-2">
-                <a href="#"
+                <a href="./our-collection.html"
                     class="rounded overflow-hidden relative w-full ipad:pt-[62%] pt-[72%] after:absolute after:inset-0 after:w-full after:h-full after:bg-black after:bg-opacity-40 select-rakhi-font hover:after:bg-opacity-10  focus:outline-offset-4 focus:outline-4 focus:outline-Theme_color">
                     <img src="https://cleanstudy.com/wp-content/uploads/2020/07/raksha-bandhan-getty-images-1200.jpg"
                         class="absolute inset-0 w-full h-full object-cover">
@@ -63,7 +174,7 @@
                         </h4>
                     </div>
                 </a>
-                <a href="#"
+                <a href="./our-collection.html"
                     class="rounded overflow-hidden relative w-full ipad:pt-[62%] pt-[72%] after:absolute after:inset-0 after:w-full after:h-full after:bg-black after:bg-opacity-40 select-rakhi-font hover:after:bg-opacity-10  focus:outline-offset-4 focus:outline-4 focus:outline-Theme_color">
                     <img src="./img/bhaiya-bhabhi.png" class="absolute inset-0 w-full h-full object-cover">
                     <div class="absolute z-10 w-full laptop:left-4 laptop:bottom-4 left-2 bottom-2">
@@ -82,16 +193,38 @@
         <div class="flex flex-col align-items-start laptop:gap-16 tablet:gap-12 mobile:gap-9 gap-6">
             <h2 class="text-Theme_color font-bold  text-4xl capitalize">Our collection</h2>
             <div class="grid laptop:grid-cols-5 ipad:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-4 gap-2.5">
-                <div class="w-full p-1.5 border border-Theme_color rounded overflow-hidden">
-                    <div class="bg-gray-100 rounded relative w-full pt-[86%] animate-pulse cursor-pointer group ">
-                        <img src=""
+                <a href="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                    data-lightbox="Rakhi" class="w-full p-1.5 border border-Theme_color rounded overflow-hidden">
+                    <div class="bg-gray-100 rounded relative w-full pt-[86%]  cursor-pointer group ">
+                        <img src="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
                             class="absolute inset-0 w-full h-full object-cover border-0 group-hover:scale-110 transition">
                     </div>
-                </div>
+                </a>
+                <a href="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                    data-lightbox="Rakhi" class="w-full p-1.5 border border-Theme_color rounded overflow-hidden">
+                    <div class="bg-gray-100 rounded relative w-full pt-[86%]  cursor-pointer group ">
+                        <img src="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                            class="absolute inset-0 w-full h-full object-cover border-0 group-hover:scale-110 transition">
+                    </div>
+                </a>
+                <a href="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                    data-lightbox="Rakhi" class="w-full p-1.5 border border-Theme_color rounded overflow-hidden">
+                    <div class="bg-gray-100 rounded relative w-full pt-[86%]  cursor-pointer group ">
+                        <img src="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                            class="absolute inset-0 w-full h-full object-cover border-0 group-hover:scale-110 transition">
+                    </div>
+                </a>
+                <a href="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                    data-lightbox="Rakhi" class="w-full p-1.5 border border-Theme_color rounded overflow-hidden">
+                    <div class="bg-gray-100 rounded relative w-full pt-[86%]  cursor-pointer group ">
+                        <img src="https://media.istockphoto.com/id/1263072746/vector/raksha-bandhan-festival-background-with-decorated-indian-rakhi.jpg?s=612x612&w=0&k=20&c=hxOWOjmvxZDt_TNgbhYE4ByYrJJdeXzgjmqc3Jql5u4="
+                            class="absolute inset-0 w-full h-full object-cover border-0 group-hover:scale-110 transition">
+                    </div>
+                </a>
             </div>
             <div class="w-full flex items-center justify-center">
-                <a href="#"
-                    class="border border-Theme_color rounded-sm sm:px-12 px-8 sm:py-2.5 py-2 flex items-center justify-center text-center text-lg capitalize">View
+                <a href="./our-collection.html"
+                    class="border border-Theme_color rounded-sm sm:px-12 px-8 sm:py-2.5 py-2 flex items-center justify-center text-center text-lg capitalize hover:bg-Theme_color hover:text-white hover:scale-125 transition">View
                     More Collection</a>
             </div>
         </div>
@@ -104,7 +237,8 @@
             <div class="w-full">
                 <div class="flex items-start gap-2.5 flex-col">
                     <h2 class="text-3xl text-Theme_color font-bold">What Our happiness Cutomer Say</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ducimus animi aspernatur?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ducimus animi aspernatur?
+                    </p>
                     <div class="flex w-full items-center justify-end gap-2.5 lg:mt-4">
                         <div class="cursor-pointer rotate-180 leftsideslider">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -146,72 +280,66 @@
                 </div>
             </div>
             <div class="w-full lg:col-span-3 mt-5">
-                <div class="swiper mySwiper w-100 h-100">
+                <div class="swiper w-100 h-100" Customer_slider>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide w-fit">
                             <div
-                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[99%]">
+                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[100%]">
                                 <div class="flex flex-col w-full gap-3 items-start">
                                     <div class="flex gap-4 items-center">
-                                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                                            class="w-16 h-16 rounded-full object-cover">
+                                        <img src="./img/user-img/img-1.jpg" class="w-16 h-16 rounded-full object-cover">
                                         <div class="flex flex-col gap-0.5 items-start">
-                                            <h4 class="text-lg tracking-wide capitalize">Neha Patel</h4>
+                                            <h4 class="text-lg tracking-wide capitalize">Kiran Kasundra</h4>
                                             <p class="text-sm tracking-wide text-gray-500">HouseWife</p>
                                         </div>
                                     </div>
                                     <div class="w-full">
-                                        <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Non
-                                            ea,
-                                            vero
-                                            repellat molestias libero accusantium dolore nihil ratione laborum facere
-                                            obcaecati praesentium. Vero, eius.</p>
+                                        <p class="text-base">Rakhi Design Are Very best end quality are very good i like
+                                            you are Rakhi every year. </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide w-fit">
                             <div
-                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[99%]">
+                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[100%]">
                                 <div class="flex flex-col w-full gap-3 items-start">
                                     <div class="flex gap-4 items-center">
-                                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                                            class="w-16 h-16 rounded-full object-cover">
+                                        <img src="./img/user-img/img-2.jpg"
+                                            class="w-16 h-16 rounded-full object-cover object-top">
                                         <div class="flex flex-col gap-0.5 items-start">
-                                            <h4 class="text-lg tracking-wide capitalize">Neha Patel</h4>
-                                            <p class="text-sm tracking-wide text-gray-500">HouseWife</p>
+                                            <h4 class="text-lg tracking-wide capitalize">Chaku Patel</h4>
+                                            <p class="text-sm tracking-wide text-gray-500">Foreign Students</p>
                                         </div>
                                     </div>
                                     <div class="w-full">
-                                        <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Non
-                                            ea,
-                                            vero
-                                            repellat molestias libero accusantium dolore nihil ratione laborum facere
-                                            obcaecati praesentium. Vero, eius.</p>
+                                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Laboriosam, esse fugiat reiciendis modi in, aut qui perferendis impedit
+                                            quibusdam totam expedita ratione dolores magni.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide w-fit">
                             <div
-                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[99%]">
+                                class="w-full rounded-md border border-Theme_color sm:py-4 py-3 sm:px-6 px-4 sm:max-w-[529px] max-w-[100%]">
                                 <div class="flex flex-col w-full gap-3 items-start">
                                     <div class="flex gap-4 items-center">
-                                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                                            class="w-16 h-16 rounded-full object-cover">
+                                        <img src="./img/user-img/img-3.jpg"
+                                            class="w-16 h-16 rounded-full object-cover object-top">
                                         <div class="flex flex-col gap-0.5 items-start">
-                                            <h4 class="text-lg tracking-wide capitalize">Neha Patel</h4>
-                                            <p class="text-sm tracking-wide text-gray-500">HouseWife</p>
+                                            <h4 class="text-lg tracking-wide capitalize">Sejal Patel</h4>
+                                            <p class="text-sm tracking-wide text-gray-500">Indian Politician</p>
                                         </div>
                                     </div>
                                     <div class="w-full">
-                                        <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
                                             Non
                                             ea,
                                             vero
-                                            repellat molestias libero accusantium dolore nihil ratione laborum facere
+                                            repellat molestias libero accusantium dolore nihil ratione laborum
+                                            facere
                                             obcaecati praesentium. Vero, eius.</p>
                                     </div>
                                 </div>
@@ -230,14 +358,17 @@
             class="w-full sm:py-8 py-6 sm:px-6 px-4 bg-Theme_color bg-opacity-80 rounded-md ipad:max-w-[75%] mobile:max-w-[90%] max-w-[96%] mx-auto">
             <div class="grid lg:grid-cols-4 grid-cols-1 sm:gap-2 gap-1">
                 <div class="w-full flex flex-col items-start sm:gap-4 gap-2.5 max-w-[586px] lg:col-span-3">
-                    <h2 class="text-white ipad:text-4xl sm:text-3xl text-2xl tracking-wide">New Collation and New Update
+                    <h2 class="text-white ipad:text-4xl sm:text-3xl text-2xl tracking-wide">New Collation and
+                        New Update
                         Join Our Whatapp Group
                     </h2>
-                    <p class="text-white sm:text-base text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-white sm:text-base text-sm">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
                         Ab quis
                         magni
                         tenetur quas corrupti rem
-                        autem, natus quod alias. Nam aut architecto aspernatur blanditiis soluta recusandae corrupti
+                        autem, natus quod alias. Nam aut architecto aspernatur blanditiis soluta recusandae
+                        corrupti
                         repellat ipsam, labore distinctio excepturi.</p>
                     <a href="#"
                         class="bg-white px-12 sm:py-3.5 py-3 w-full justify-center sm:w-fit rounded-md sm:text-xl text-lg capitalize tracking-wide flex items-center gap-3">
@@ -300,13 +431,15 @@
                 <div
                     class="flex flex-col tablet:items-start items-center  gap-1.5  tablet:max-w-[458px] text-center tablet:text-left">
                     <h2 class="text-4xl font-semibold uppercase">Logo</h2>
-                    <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, animi? Ratione
+                    <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, animi?
+                        Ratione
                         id ex
                         dolor
                         maiores sed maxime inventore quam quidem! Pariatur, architecto. Adipisci, voluptate.</p>
                 </div>
                 <div class="flex tablet:gap-3.5 gap-4 flex-col tablet:max-w-[358px] text-center tablet:text-left">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aspernatur dolorum distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aspernatur dolorum
+                        distinctio.</p>
                     <div
                         class="flex items-center gap-2.5 order-first justify-center tablet:justify-start  tablet:order-none">
                         <a href="#">
@@ -346,7 +479,9 @@
     </footer>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

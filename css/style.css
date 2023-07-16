@@ -11,3 +11,14 @@
   /* .select-rakhi-font {
     font-family: 'Hind Siliguri', sans-serif;
   } */
+
+
+  [Home_Banner] .swiper-pagination {
+    right: 1rem !important;
+    width: fit-content;
+    left: auto;
+  }
+
+  [Home_Banner] .swiper-pagination .swiper-pagination-bullet {
+    background-color: #AA0B28;
+  }
